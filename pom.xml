@@ -5,6 +5,10 @@
   <artifactId>COA</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+  <configuration>
+            <fork>true</fork>
+            <executable>/opt/jdk1.8.0_171\bin\javac</executable>
+        </configuration>
   <name>COA</name>
   <url>http://maven.apache.org</url>
  <properties>
