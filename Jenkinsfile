@@ -4,5 +4,6 @@ node{
    }
    stage('Compile-Package'){
      sh '/opt/apache-maven-3.5.4/bin/mvn package'
+     sh '/opt/jdk1.8.0_171/bin/java'
    }
 }
